@@ -21,7 +21,7 @@ text = file.read()
 words = word_tokenize(text)
 # print(words)
 
-# list of the stop words.
+# set of the stop words.
 stop_words = set(stopwords.words('english')) 
 
 # Remove stopwords
